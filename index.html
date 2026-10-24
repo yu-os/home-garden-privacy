@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>プライバシーポリシー | 家庭菜園サポート</title>
+  <style>
+    :root {
+      --primary: #15803d;
+      --primary-light: #dcfce7;
+      --text-main: #1f2937;
+      --text-muted: #4b5563;
+      --bg-page: #f9fafb;
+      --bg-card: #ffffff;
+      --border: #e5e7eb;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+      line-height: 1.75;
+      color: var(--text-main);
+      background-color: var(--bg-page);
+      padding: 24px 16px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--bg-card);
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+      padding: 32px 24px;
+    }
+    @media (min-width: 640px) {
+      .container {
+        padding: 48px 40px;
+      }
+    }
+    header {
+      border-bottom: 2px solid var(--primary-light);
+      padding-bottom: 20px;
+      margin-bottom: 28px;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--primary);
+      background: var(--primary-light);
+      padding: 4px 12px;
+      border-radius: 9999px;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #111827;
+      letter-spacing: -0.025em;
+      margin-bottom: 8px;
+    }
+    .updated-date {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--primary);
+      margin-top: 32px;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    h2::before {
+      content: "";
+      display: inline-block;
+      width: 4px;
+      height: 1.1em;
+      background-color: var(--primary);
+      border-radius: 2px;
+    }
+    p {
+      margin-bottom: 14px;
+      font-size: 0.975rem;
+      color: var(--text-muted);
+    }
+    ul, ol {
+      margin-left: 20px;
+      margin-bottom: 16px;
+      color: var(--text-muted);
+      font-size: 0.975rem;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    .table-container {
+      overflow-x: auto;
+      margin: 16px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      text-align: left;
+    }
+    th, td {
+      border: 1px solid var(--border);
+      padding: 10px 14px;
+    }
+    th {
+      background-color: #f3f4f6;
+      font-weight: 600;
+      color: #374151;
+    }
+    .note-box {
+      background-color: #f0fdf4;
+      border-left: 4px solid var(--primary);
+      padding: 16px;
+      border-radius: 0 8px 8px 0;
+      margin: 18px 0;
+      font-size: 0.925rem;
+    }
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="badge">公式プライバシーポリシー</span>
+      <h1>「家庭菜園サポート」プライバシーポリシー</h1>
+      <p class="updated-date">最終改定日: 2026年10月24日</p>
+    </header>
+
+    <main>
+      <section>
+        <p>「家庭菜園サポート」（以下、「当アプリ」といいます）は、ユーザーのプライバシーを尊重し、個人情報の保護に努めています。本プライバシーポリシーでは、当アプリにおけるユーザー情報の取り扱い方針について説明します。</p>
+      </section>
+
+      <section>
+        <h2>1. 取得する情報および利用目的</h2>
+        <p>当アプリは、提供する機能の実現のために以下の情報を取得・利用します。</p>
+
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>情報の種類</th>
+                <th>利用目的</th>
+                <th>保存・送信先</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>カメラ・画像データ</strong></td>
+                <td>AIによる植物の病害虫診断および栽培記録の保存</td>
+                <td>端末内ローカル保存および診断APIへの送信（診断完了後にAPI側で破棄）</td>
+              </tr>
+              <tr>
+                <td><strong>Googleアカウント情報</strong></td>
+                <td>Googleカレンダー連携およびユーザー認証</td>
+                <td>端末内セキュア領域に暗号化保存（外部サーバーには保存されません）</td>
+              </tr>
+              <tr>
+                <td><strong>カレンダーデータ</strong></td>
+                <td>栽培・お世話スケジュール（追肥、剪定等）の登録と同期</td>
+                <td>Googleカレンダーへの連携（ユーザーの同意に基づく追加のみ）</td>
+              </tr>
+              <tr>
+                <td><strong>広告識別子（Ad ID）</strong></td>
+                <td>広告の配信および効果測定（AdMob）</td>
+                <td>広告配信事業者（Google LLC）</td>
+              </tr>
+              <tr>
+                <td><strong>栽培記録・タスク情報</strong></td>
+                <td>お世話管理、栽培ログ、成長記録の表示</td>
+                <td>ユーザーの端末内ローカルストレージ（SQLite）のみに保存</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="note-box">
+          <strong>データのローカル完結性について:</strong><br>
+          ユーザーが登録した植物の名前、成長記録、お世話履歴などの栽培データは、すべてユーザーの端末内部（ローカル環境）に安全に保存されます。開発者や第三者のサーバーに送信・蓄積されることはありません。
+        </div>
+      </section>
+
+      <section>
+        <h2>2. 外部サービスおよびサードパーティSDKの利用</h2>
+        <p>当アプリでは、機能の提供および品質向上のために以下のサードパーティサービスを利用しています。各事業者が収集する情報および利用目的については、各社のプライバシーポリシーをご確認ください。</p>
+
+        <ul>
+          <li>
+            <strong>Google Gemini API（AI診断機能）</strong><br>
+            提供元: Google LLC<br>
+            利用目的: ユーザーが撮影・選択した植物写真に基づく病害虫診断および育成アドバイスの生成。<br>
+            ※送信された画像およびテキストデータは診断処理にのみ使用されます。
+          </li>
+          <li>
+            <strong>Google Calendar API（カレンダー連携機能）</strong><br>
+            提供元: Google LLC<br>
+            利用目的: お世話タスクの予定追加およびリマインダー連携。ユーザーの明示的な許可なく他の予定を変更・閲覧することはありません。
+          </li>
+          <li>
+            <strong>Google AdMob（広告配信）</strong><br>
+            提供元: Google LLC<br>
+            利用目的: アプリ内における広告の配信および分析。<br>
+            詳細: <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener noreferrer">Google 広告ポリシー</a>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>3. 端末の権限（パーミッション）について</h2>
+        <p>当アプリは以下の端末機能へのアクセス許可を要求する場合があります。これらの権限は該当機能の実行時にのみ使用されます。</p>
+        <ul>
+          <li><strong>カメラ・写真ライブラリへのアクセス:</strong> 植物の写真撮影および診断対象画像の読み込みに使用します。</li>
+          <li><strong>ネットワーク接続:</strong> AI診断機能の実行、Googleカレンダー同期、広告配信のために利用します。</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>4. データの管理とセキュリティ</h2>
+        <p>当アプリは、ユーザーデータの漏洩・滅失・毀損の防止のため、適切なセキュリティ対策を講じています。</p>
+        <ul>
+          <li>Google連携に必要なアクセストークンやAPIキーは、OS標準のセキュア保管機構（iOS Keychain / Android Keystore）に暗号化して保存されます。</li>
+          <li>アプリ内データはユーザーの端末内に閉じた状態で管理されます。</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>5. ユーザーの権利およびデータの削除</h2>
+        <p>ユーザーはいつでもアプリ内のデータ（登録した植物、栽培ログ等）をアプリ上から削除できます。また、当アプリを端末からアンインストールすることで、端末内に保存されたすべてのローカルデータは完全に消去されます。</p>
+      </section>
+
+      <section>
+        <h2>6. 免責事項</h2>
+        <p>当アプリで提供されるAI診断および栽培アドバイスは、生成AIモデルの分析結果に基づく参考情報です。診断結果の完全性、正確性、および栽培の成功を保証するものではありません。実際の農薬や肥料の使用にあたっては、各製品のラベルおよび使用上の注意を必ずご確認ください。</p>
+      </section>
+
+      <section>
+        <h2>7. プライバシーポリシーの改定</h2>
+        <p>当アプリは、法令の変更やサービスの改善に伴い、本プライバシーポリシーを改定することがあります。改定された最新のプライバシーポリシーは、本ページにて速やかに公開します。</p>
+      </section>
+
+      <section>
+        <h2>8. お問い合わせ窓口</h2>
+        <p>本プライバシーポリシーおよびユーザー情報の取り扱いに関するご質問・ご要望は、下記のお問い合わせ先までご連絡ください。</p>
+        <p>
+          <strong>家庭菜園サポート 開発窓口</strong><br>
+          お問い合わせ窓口: GitHub Issues または アプリ内サポート窓口
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 家庭菜園サポート All Rights Reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>
